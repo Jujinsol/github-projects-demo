@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-app",
+  "version": "1.0.0",
+  "description": "Github Actions 연습을 위한 node.js 예제 프로그램",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha app.test.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stelladream/github-actions-nodejs.git"
+  },
+  "keywords": [
+    "node.js",
+    "web",
+    "application"
+  ],
+  "author": "Namyun Kim",
+  "license": "GPLV3",
+  "bugs": {
+    "url": "https://github.com/stelladream/github-actions-nodejs/issues"
+  },
+  "homepage": "https://github.com/stelladream/github-actions-nodejs#readme",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0"
+  }
+}
